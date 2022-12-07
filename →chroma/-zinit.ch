@@ -328,7 +328,7 @@ fsh__zinit__chroma__def=(
     [[ "$_wrd" = (#b)(id-as(:|)(\'|\")(*)(\'|\")|id-as:(*)|id-as(*)) ]] && \
         FAST_HIGHLIGHT[chroma-zinit-ice-elements-id-as]="${match[4]}${match[6]}${match[7]}"
 
-    # Copy from zinit-autoload.zsh / -zplg-recall
+    # Copy from-zinit-autoload.zsh / -zplg-recall
     local -a ice_order nval_ices ext_val_ices
     ext_val_ices=( ${(@)${(@Ms.|.)ZINIT_EXTS[ice-mods]:#*\'\'*}//\'\'/} )
 
